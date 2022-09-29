@@ -14,8 +14,8 @@ export default function Container() {
                     so we can make that easier for you. </p>
 
                     <div className="btn">
-                        <button type="button" onclick="alert('')">Find out how</button>
-                        <button type="button" onclick="alert('')">Explore us </button>
+                        <button type="button">Find out how</button>
+                        <button type="button" >Explore us </button>
                     </div>
                 </div>
 

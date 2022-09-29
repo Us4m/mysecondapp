@@ -2,8 +2,9 @@ import React from 'react'
 import '../App.css';
 import PropTypes from 'prop-types'
 import logo from '../images/logo.png'
-import ic from '../images/Buy.svg'
+import iccc from '../images/Buy.svg'
 import icc from '../images/Search.svg'
+
 import menc from '../images/menu.svg'
 
 
@@ -38,7 +39,7 @@ export default function Navbar(props) {
 					</div>
 
                     <div className="icon">
-                      <img src={ic}></img>
+                      <img src={iccc}></img>
                       <img src={icc}></img>
                     </div>
                 </div>

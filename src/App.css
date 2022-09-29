@@ -226,7 +226,7 @@ font-size: 12px;
 {
 margin-left: 20px;
 padding: 0%;
-margin-right: 30px;
+margin-right: 10px;
 }
 .logo{
     margin-left: 10px;
@@ -250,7 +250,203 @@ margin-right: 30px;
 .logo{
     margin-top: -35px;
 }
+.newsl{
+    margin-top: 300px;
+    
+   
+    
+}
+.newspl{
+    display: none;
+    
+  }
+
+  .newslpr{
+    display: none;
+  }
+
+  input[type=text] {
+    width: 50%;
+    margin-top: 0;
+    
+  }
+    .newsp p{
+    display: none;
+
+    }
+
+    .col-25, .col-75,.row, input[type=submit] {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        
+      }
+
+      .rfutr{
+        display: none;
+      }
+}
+
+
+  /* Newsletterr */
+
+  .col-75{
+    display: none;
+  }
+  .row{
+    display: none;
+  }
+  .newsl{
+   
+    display: flex;
+    justify-content: space-around;
+    height: 194px;
+    background-color: #eb5757cb;
+    
+  }
+  .newspl{
+    margin-top: 27px;
+    
+  }
+  .newslpm{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+  }
+  .newslpr{
+    margin-top: 5px;
+  }
+
+  .newsh{
+    padding-top: 31px;
+
+   
+
+  }
+  .newsh h4{
+     
+    color: azure;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arboria-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+.newsp p{
+    
+    color: aliceblue;
+    font-family: 'DM Sans', sans-serif;
+    gap: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    
+
+}
+.newsp{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+input[type=text], select {
+    width: 425px;
+    padding: 12px 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+    background-color: azure;
+    border: azure;
+  }
+  input[type=submit], select {
+    width: 125px;
+    padding: 12px 20px;
+    color: aliceblue;
+    background-color: #F2C94C;
+    border: #F2C94C;
+
+   
+    
+  }
+
+  input[value='Enter your Email'], select {
+    color: rgb(97, 97, 102);
+  }
+  input[value='Submit'], select {
+    color: rgb(0, 0, 0);
+  }
+  .futr{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    background-color: #333333;
+  }
+  .lfutr{
+    margin-top: 70px;
+    margin-left: -30px;
+  }
+  .loca{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+  }
+    
+  .locaimg{
+    /* border: 3px solid rgb(60, 255, 0); */
+    
+  }
+
+  .locatxt{
+    color: aliceblue;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 16px;
+  }
+  
+  .i,.ii,.iii,.iv{
+    color: aliceblue;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .rfutr{
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
 
   }
 
-
+  .rfutri{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .rfutrii{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .rfutriii{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .flogotxt{
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
