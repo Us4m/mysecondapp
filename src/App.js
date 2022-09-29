@@ -7,6 +7,7 @@ import Newsletter from './components/Newsletter';
 function App() {
   return (
    <>
+   
    <Navbar title="Mobile base"/>
    <Container/>
    <Newsletter/>
