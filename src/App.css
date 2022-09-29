@@ -86,8 +86,8 @@
 .container_i{
     display: flex;
     /* border: 2px solid black; */
+    margin-top: -50px;
     height: calc(100vh - 160px);
-    margin-top: 60px;
     padding: 0 30px;
     justify-content: space-between;
     align-items: center;

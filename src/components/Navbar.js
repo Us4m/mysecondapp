@@ -11,6 +11,11 @@ import menc from '../images/menu.svg'
 
 
 export default function Navbar(props) {
+  const nload = (e) =>{
+    e.preventDefault();
+    console.log("subscrivbe Sucessfully");
+    
+  }
   return (
     <div className="wrapper">
      <nav>
@@ -31,9 +36,9 @@ export default function Navbar(props) {
 					
 				<div className="left_item">
                     <div className="item">
-						<a href="" className="active navbar-link nav-link">Home</a>
-						<a href="" className="navbar-link nav-link">Buy Phones</a>
-						<a href="" className="navbar-link nav-link">Compare Phones</a>
+						<a href="\" onClick={nload} className="active navbar-link nav-link">Home</a>
+						<a href="\" onClick={nload}className="navbar-link nav-link">Buy Phones</a>
+						<a href="\" onClick={nload}className="navbar-link nav-link">Compare Phones</a>
          
 						
 					</div>
