@@ -1,19 +1,34 @@
 import './App.css';
+import Buyphone from './components/Buyphone';
 import Container from './components/Container';
-import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
+import {
+  Routes,
+  Route,
+  BrowserRouter
+} from "react-router-dom";
+
+import Homee from './components/Homee';
+
 
 function App() {
   return (
    <>
+   <BrowserRouter>
+   <Routes>
    
-   <Navbar title="Mobile base"/>
-   <Container/>
-   <Newsletter/>
-   <Footer title="Mobile base"/>
+   <Route path="/" element={<Homee/>} />
+   <Route path="/" element={<Container/>} />
+    <Route path="Buyphone" element={<Buyphone/>} />
+    <Route path="/" element={<Newsletter/>} />
+    <Route path="/" element={<Footer title="Mobile base"/>} />
+    
+   
 
-
+   </Routes>
+   </BrowserRouter>
    </>
   );
 }

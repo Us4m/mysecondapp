@@ -450,3 +450,89 @@ input[type=text], select {
     font-weight: 700;
     
 }
+
+
+.container_ii{
+  /* border: 2px solid black;  */
+  padding: 50px;
+  }
+  .label{
+  /* border: 2px solid black; */
+  font-family: 'DM Sans';
+  margin-left: 20px;
+  font-size: 24px;
+  
+  }
+  .label span{
+      color: yellow;
+  }
+  
+  .ph_logo{
+      /* border: 2px solid black;
+      display: grid;
+      grid-template-rows: 133px 133px ;
+      grid-template-columns: 133px 133px 133px 133px 133px 133px; */
+      /* gap: 70px; */
+    
+      display: flex;
+      justify-content: space-around;
+      gap: 0px;
+      
+      
+  
+  }
+  .litem1{
+     
+ 
+  
+  
+  }
+  .litem1 img{
+      width: 233px;
+      height: 233px;
+  }
+  
+  .expand{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      width: 90px;
+      height: 23px;
+      left: 705px;
+      margin-top: 240px;
+  
+  }
+  .tg {
+      color: #0087F9;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 23px;
+      text-decoration-line: underline;
+  }
+  .container_iii{
+      margin-top: 120px;
+  }
+  
+  .mb_logo{
+      /* border: 2px solid black; */
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+  }
+  
+  
+  .label_mb{
+      font-family: 'DM Sans';
+  font-size: 24px;
+  line-height: 28px;
+  }
+  
+  .label_mb2{
+      margin-top: 60px;
+      font-family: 'DM Sans';
+      font-size: 24px;
+      line-height: 28px;
+  }

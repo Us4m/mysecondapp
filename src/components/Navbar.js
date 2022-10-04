@@ -4,8 +4,9 @@ import PropTypes from 'prop-types'
 import logo from '../images/logo.png'
 import iccc from '../images/Buy.svg'
 import icc from '../images/Search.svg'
-
 import menc from '../images/menu.svg'
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -17,6 +18,7 @@ export default function Navbar(props) {
     
   }
   return (
+    <>
     <div className="wrapper">
      <nav>
 		<div className="header">
@@ -26,7 +28,7 @@ export default function Navbar(props) {
             <img src={logo}></img>
             </div>
             <div className="logotxt">
-                {props.title}
+                Mobile Base
             </div>
         
 
@@ -36,9 +38,9 @@ export default function Navbar(props) {
 					
 				<div className="left_item">
                     <div className="item">
-						<a href="\" onClick={nload} className="active navbar-link nav-link">Home</a>
-						<a href="\" onClick={nload}className="navbar-link nav-link">Buy Phones</a>
-						<a href="\" onClick={nload}className="navbar-link nav-link">Compare Phones</a>
+						<Link to="/" className="active navbar-link nav-link">Home</Link>
+						<Link to="/Buyphone" className="navbar-link nav-link">Buy Phones</Link>
+						<Link to="/"className="navbar-link nav-link">Compare Phones</Link>
          
 						
 					</div>
@@ -56,7 +58,11 @@ export default function Navbar(props) {
                 </div>          
 			</div>
 		</nav>
+    
+
     </div>
+    
+    </>
   )
 }
 Navbar.prototype = {
