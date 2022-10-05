@@ -10,7 +10,7 @@ import op from '../images/One Plus 10.svg'
 import opo from '../images/Oppo 1.svg'
 
 export default function Byph() {
-  return (
+  return (  
     <div>
         <div className="container_ii">
             <div className="label">
